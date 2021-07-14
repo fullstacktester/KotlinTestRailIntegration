@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.fullstacktester.testrail.models.FieldTest" tests="24" skipped="0" failures="0" errors="0" timestamp="2021-07-14T14:27:16" hostname="SBGML02898" time="0.139">
+  <properties/>
+  <testcase name="Can serialize a StepResults field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.02"/>
+  <testcase name="Can serialize a Dropdown field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.004"/>
+  <testcase name="Can deserialize an Integer field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.006"/>
+  <testcase name="Can deserialize a MultiSelect field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.007"/>
+  <testcase name="Can serialize a Date field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.004"/>
+  <testcase name="Can deserialize a String field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.012"/>
+  <testcase name="Can serialize a Url field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.004"/>
+  <testcase name="Can deserialize a User field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.014"/>
+  <testcase name="Can serialize a User field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.002"/>
+  <testcase name="Can serialize a Milestone field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.005"/>
+  <testcase name="Can deserialize a Text field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.006"/>
+  <testcase name="Can serialize a Checkbox field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.003"/>
+  <testcase name="Can deserialize a Url field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.006"/>
+  <testcase name="Can deserialize a Steps field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.005"/>
+  <testcase name="Can serialize a Text field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.002"/>
+  <testcase name="Can serialize a Steps field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.003"/>
+  <testcase name="Can deserialize a Dropdown field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.003"/>
+  <testcase name="Can deserialize a Milestone field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.003"/>
+  <testcase name="Can deserialize a Checkbox field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.003"/>
+  <testcase name="Can serialize a String field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.001"/>
+  <testcase name="Can deserialize a Date field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.002"/>
+  <testcase name="Can serialize an Integer field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.002"/>
+  <testcase name="Can serialize a MultiSelect field to JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.002"/>
+  <testcase name="Can deserialize a StepResults field from JSON()" classname="com.github.fullstacktester.testrail.models.FieldTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

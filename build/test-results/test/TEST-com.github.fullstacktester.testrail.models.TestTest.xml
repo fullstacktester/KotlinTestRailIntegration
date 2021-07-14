@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.fullstacktester.testrail.models.TestTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-07-14T14:27:16" hostname="SBGML02898" time="0.202">
+  <properties/>
+  <testcase name="Can serialize a Test with an Integer custom field to JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.148"/>
+  <testcase name="Can serialize a Test with an Int List custom field to JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.014"/>
+  <testcase name="Can deserialize a Test with no custom fields from JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.01"/>
+  <testcase name="Can serialize a Test with a Steps custom field to JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.009"/>
+  <testcase name="Can serialize a Test with a Boolean custom field to JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.005"/>
+  <testcase name="Can serialize a Test with no custom fields to JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.001"/>
+  <testcase name="Can deserialize a Test with a String custom field from JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.004"/>
+  <testcase name="Can deserialize a Test with an Int List custom field from JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.001"/>
+  <testcase name="Can deserialize a Test with a Steps custom field from JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.001"/>
+  <testcase name="Can serialize a Test with a String custom field to JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.002"/>
+  <testcase name="Can deserialize a Test with a Boolean custom field from JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.001"/>
+  <testcase name="Can deserialize a Test with an Integer custom field from JSON()" classname="com.github.fullstacktester.testrail.models.TestTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

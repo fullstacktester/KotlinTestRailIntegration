@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.fullstacktester.testrail.TestRailConfigTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-07-14T14:27:15" hostname="SBGML02898" time="0.042">
+  <properties/>
+  <testcase name="throws error when baseApiPath contains whitespace()" classname="com.github.fullstacktester.testrail.TestRailConfigTest" time="0.019"/>
+  <testcase name="throws error is proxy is enabled but hostname is null()" classname="com.github.fullstacktester.testrail.TestRailConfigTest" time="0.002"/>
+  <testcase name="throws error is proxy is enabled but hostname is empty()" classname="com.github.fullstacktester.testrail.TestRailConfigTest" time="0.002"/>
+  <testcase name="throws error when baseApiUri contains whitespace()" classname="com.github.fullstacktester.testrail.TestRailConfigTest" time="0.002"/>
+  <testcase name="creates default full url when path is not provided()" classname="com.github.fullstacktester.testrail.TestRailConfigTest" time="0.006"/>
+  <testcase name="creates valid full url when no forward slashes are provided()" classname="com.github.fullstacktester.testrail.TestRailConfigTest" time="0.001"/>
+  <testcase name="throws error is proxy is enabled but port is null()" classname="com.github.fullstacktester.testrail.TestRailConfigTest" time="0.001"/>
+  <testcase name="creates valid full url when both url and path provide forward slashes()" classname="com.github.fullstacktester.testrail.TestRailConfigTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

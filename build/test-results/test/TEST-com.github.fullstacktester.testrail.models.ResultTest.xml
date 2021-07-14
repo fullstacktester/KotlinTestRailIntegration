@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.github.fullstacktester.testrail.models.ResultTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-07-14T14:27:16" hostname="SBGML02898" time="0.023">
+  <properties/>
+  <testcase name="Can serialize a list of Results to JSON()" classname="com.github.fullstacktester.testrail.models.ResultTest" time="0.003"/>
+  <testcase name="Can deserialize a list of Result from JSON()" classname="com.github.fullstacktester.testrail.models.ResultTest" time="0.005"/>
+  <testcase name="Can deserialize a Result with no custom fields from JSON()" classname="com.github.fullstacktester.testrail.models.ResultTest" time="0.001"/>
+  <testcase name="Can serialize a Result with no custom fields to JSON()" classname="com.github.fullstacktester.testrail.models.ResultTest" time="0.003"/>
+  <testcase name="Can deserialize a Result with Step Result field from JSON()" classname="com.github.fullstacktester.testrail.models.ResultTest" time="0.005"/>
+  <testcase name="Can serialize a Result with a Step Result field to JSON()" classname="com.github.fullstacktester.testrail.models.ResultTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
