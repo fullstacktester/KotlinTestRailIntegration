@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.github.fullstacktester.testrail.models.SectionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-14T14:27:15" hostname="SBGML02898" time="0.501">
-  <properties/>
-  <testcase name="Can deserialize from JSON()" classname="com.github.fullstacktester.testrail.models.SectionTest" time="0.286"/>
-  <testcase name="Can serialize to JSON()" classname="com.github.fullstacktester.testrail.models.SectionTest" time="0.214"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
