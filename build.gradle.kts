@@ -3,11 +3,14 @@ plugins {
     `java-library`
     id("io.kotest") version "0.2.6"
     id("maven-publish")
+    id("signing")
     kotlin("plugin.serialization") version "1.5.20"
+
 }
 
 group="io.github.fullstacktester"
 version=1.0
+description="A Kotlin utility for uploading test results to TestRail"
 
 repositories {
     mavenCentral()
@@ -51,6 +54,15 @@ tasks.jar {
     }
 }
 
+java {
+    withSourcesJar()
+    withJavadocJar()
+}
+
+signing {
+    sign("configurations.archives")
+}
+
 publishing {
     publications {
         create<MavenPublication>("mavenJava") {
@@ -58,3 +70,68 @@ publishing {
         }
     }
 }
+
+sourceSets {
+    getByName("main").java.srcDirs("src/main/kotlin")
+    getByName("test").java.srcDirs("src/main/kotlin")
+}
+
+
+publishing {
+    publications {
+        register(project.name, MavenPublication::class) {
+            from(components["java"])
+            artifact(sourcesJar)
+            artifact(javadocJar)
+
+            groupId = groupId
+            artifactId = project.name
+            version = version
+
+            repositories {
+                maven {
+                    name = "snapshot"
+                    url = java.net.URI("")
+
+                }
+            }
+
+
+
+            pom {
+                name.set(project.name)
+                description.set(project.description)
+
+                packaging = if (project.hasProperty("android")) "aar" else "jar"
+                url.set("https://github.com/fullstacktester/KotlinTestRailIntegration")
+
+                licenses {
+                    license {
+                        name.set("The Apache License, Version 2.0")
+                        url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+                    }
+                }
+
+                developers {
+                    developer {
+                        name.set("fullstacktester")
+                    }
+                }
+
+                scm {
+                    url.set("https://github.com/fullstacktester/KotlinTestRailIntegration")
+                    connection.set("scm:git:git://github.com/fullstacktester/KotlinTestRailIntegration")
+                    developerConnection.set("scm:git:git://github.com/fullstacktester/KotlinTestRailIntegration")
+                }
+            }
+
+            if (project.hasProperty("android")) {
+                pom.addDependencies()
+            }
+        }
+    }
+}
+
+
+
+
