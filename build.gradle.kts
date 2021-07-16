@@ -6,7 +6,7 @@ plugins {
     kotlin("plugin.serialization") version "1.5.20"
 }
 
-group="uk.co.fullstacktesting"
+group="io.github.fullstacktester"
 version=1.0
 
 repositories {
